@@ -1,0 +1,15 @@
+/* 
+    button.scss
+*/ 
+
+.button {
+    border: 1px solid pink;
+    border-radius: 15px;
+    padding: 5px 10px;
+    background: white;
+    font-family: Helvetica;
+    font-size: 18px;
+    &:hover {
+        cursor: pointer;
+    }
+}

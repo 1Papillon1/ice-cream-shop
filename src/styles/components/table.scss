@@ -1,0 +1,41 @@
+/* 
+    table.scss
+*/ 
+
+@import "../base/variables.scss";
+
+.table {
+    margin-top: 15px;
+    width: 100%;
+    &__image {
+        width: 100px;
+    }
+    &__data {
+        font-family: $secondaryfont;
+        font-size: 18px;   
+        padding: 10px 0px;
+        &--image {
+            width: 105px;
+        }
+        &--right {
+            float: right;
+            margin-top: 25px;
+        }
+        &--left {
+            text-align: right;
+        }
+        &--special {
+            float: right;
+        }
+        &--secondary {
+            width: 50px;
+        }
+    }
+    &__input {
+        background: pink;
+        border: 0px;
+        font-size: 16px;
+        width: 50px;
+        text-align: center;
+    }
+}

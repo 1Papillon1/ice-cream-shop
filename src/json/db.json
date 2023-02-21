@@ -1,0 +1,50 @@
+{
+    "icecreams" : [
+        {
+            "id" : 1,
+            "name" : "Chocolate",
+            "price" : 4,
+            "description" : "ice cream with a chocolate flavor.",
+            "src" : "./chocolate.jpg"
+        },
+        {
+            "id" : 2,
+            "name" : "Strawberry",
+            "price" : 6,
+            "description" : "ice cream with a strawberry flavor.",
+            "src" : "./strawberry.jpg"
+        },
+        {
+            "id" : 3,
+            "name" : "Cookie Dough",
+            "price" : 8,
+            "description" : "ice cream with a chocolate flavor and cookie pieces.",
+            "src" : "./cookie.jpg"
+
+        },
+        {
+            "id" : 4,
+            "name" : "Espresso",
+            "price" : 7,
+            "description" : "combination of a coffee and chocolate flavor ice cream.",
+            "src" : "./espresso.jpg"
+
+        },
+        {
+            "id" : 5,
+            "name" : "Vanilla",
+            "price" : 4,
+            "description" : "ice cream with a vanilla flavor",
+            "src" : "./vanilla.jpg"
+
+        },
+        {
+            "id" : 6,
+            "name" : "Mango",
+            "price" : 8,
+            "description" : "ice cream with an indian variety of mango.",
+            "src" : "./mango.jpg"
+
+        }
+    ]
+}

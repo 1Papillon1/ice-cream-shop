@@ -1,0 +1,16 @@
+/* 
+    span.scss
+*/ 
+
+.span {
+    position: absolute;
+    background: red;
+    color: white;
+    padding: 1px 4px;
+    font-size: 14px;
+    border-radius: 15px;
+    z-index: 3;
+    float: right;
+    right: 32px;
+    margin-top: -5px;
+}

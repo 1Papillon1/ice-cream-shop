@@ -1,0 +1,36 @@
+/*
+    flex.scss
+*/ 
+
+@import "../base/variables.scss";
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    &__box {
+        width: 300px;
+        margin: 40px;
+        &__paragraph {
+            font-family: $secondaryfont;
+        }
+        &__image {
+            width: 300px;
+            height: 200px;
+        }
+        &__title {
+            display: inline;
+            font-family: $primaryfont;
+            &--secondary {
+                float: right;
+                margin-top: 0px;
+            }
+        }
+
+    }
+    &--right {
+        justify-content: right;
+        margin-right: 20px;
+        margin-top: 20px;
+    }
+}

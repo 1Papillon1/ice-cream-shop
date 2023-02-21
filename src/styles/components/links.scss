@@ -1,0 +1,18 @@
+/* 
+    links.scss
+*/ 
+@import "../base/variables.scss";
+
+.link {
+    text-decoration: none;
+    color: black;
+    padding: 5px 10px; 
+    margin: 5px; 
+    background: white;
+    border-radius: 15px;
+    font-family: $primaryfont;
+    &:hover {
+        transition: 0.3s;
+        background: #fffbfccc;
+    }
+}

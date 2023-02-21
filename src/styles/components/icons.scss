@@ -1,0 +1,19 @@
+/* 
+    icons.scss
+*/ 
+
+.icons {
+    width: 32px;
+    position: absolute;
+    float: right;
+    right: 30px;
+    margin-top: -25px;
+    &--secondary {
+        position: initial;
+        float: none;
+        margin-top: 5px;
+    }
+    &:hover {
+        cursor: pointer;
+    }
+}

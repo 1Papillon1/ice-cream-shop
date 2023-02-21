@@ -1,0 +1,35 @@
+/*
+    box.scss
+*/ 
+
+@import "../base/variables.scss";
+
+.box {
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 40px;
+    background: white;
+    padding: 30px;
+    &__title {
+        font-family: $secondaryfont;
+        font-size: 16px;
+        padding: 0px;
+        margin: 0px;
+        border-bottom: 1px solid lightgray;
+        padding-bottom: 10px;
+    }
+    &__label {
+        font-family: $secondaryfont;
+        font-size: 18px;
+        display: block;
+        margin-bottom: 5px;
+    }
+    &__input {
+        margin-bottom: 15px;
+        font-family: $primaryfont;
+        border: 1px solid pink;
+        border-radius: 15px;
+        padding: 10px;
+        font-size: 18px;
+    }
+}

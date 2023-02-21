@@ -1,0 +1,17 @@
+/*
+    layout.scss
+*/ 
+
+@import "../base/variables.scss";
+
+.layout {
+    background: rgba(211, 211, 211, 0.493);
+    height: calc(100vh - 387px);
+    overflow: auto;
+    &__title {
+        padding-top: 50px;
+        margin: 0px;
+        text-align: center;
+        font-family: $primaryfont;
+    }
+}
